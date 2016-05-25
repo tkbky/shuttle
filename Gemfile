@@ -62,7 +62,6 @@ gem 'faker'
 
 # BACKGROUND JOBS
 gem 'sidekiq', '<3.0.0'
-gem 'sidekiq-pro'
 gem 'sidekiq-failures', github: 'mhfs/sidekiq-failures'
 gem 'sinatra', require: nil
 gem 'whenever', require: nil
@@ -82,6 +81,7 @@ gem 'hogan_assets'
 group :development do
   gem 'redcarpet', require: nil
   gem 'yard', require: nil, platform: :mri
+  gem 'letter_opener'
 end
 
 group :test do
